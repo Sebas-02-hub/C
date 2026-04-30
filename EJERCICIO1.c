@@ -23,8 +23,9 @@ void main(void){
     printf("la potencia de los parametros es = %d\n ", a^b);
     // residuo
     printf("la el resiudo de los parametros es = %d\n ", a%b);
-    // inidique si es mayor igual o menor
-    
+    // inidique si es mayor igual o menor 
+    printf("cambio");
+
 
 
 
