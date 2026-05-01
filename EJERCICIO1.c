@@ -34,12 +34,20 @@ void main(int a, int b){
     } else {
         printf("los parametros son iguales\n");
     }
-   
-
-
-
-
-    
+   // Que imprima los números desde el primer parámetro al segundo parámetro.
+   if (a < b){
+          printf("los numeros desde el primer parametro al segundo parametro son: ");
+    for (int i = a; i <= b; i++){
+        printf("%d ", i);
+    }
+    } else if (a > b) {
+        printf("los numeros desde el primer parametro al segundo parametro son: ");
+    for (int i = a; i >= b; i--){
+        printf("%d ", i); 
+    } 
+    } else {
+        printf("los parametros son iguales\n");
+    }
 
     
 }
