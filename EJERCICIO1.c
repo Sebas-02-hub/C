@@ -27,6 +27,13 @@ void main(int a, int b){
     // residuo
     printf("la el resiudo de los parametros es = %d\n ", a%b);
     // inidique si es mayor igual o menor 
+    if (a > b){
+        printf("el primer parametro es mayor que el segundo\n");
+    } else if (a < b){
+        printf("el primer parametro es menor que el segundo\n");
+    } else {
+        printf("los parametros son iguales\n");
+    }
    
 
 
