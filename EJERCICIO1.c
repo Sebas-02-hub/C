@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-void main(void){
+void main(int a, int b){
 
-    int a,b;
+
     printf("ingrese primer parametro:" );
     scanf("%d",&a);
 
     printf("ingrese segundo parametro: ");
     scanf("%d",&b);
 
-
+    float C =(float) a/b;
     // suma
     printf("la suma de los parametros es = %d\n ", a+b);
 
@@ -18,13 +18,13 @@ void main(void){
     // multiplicacion
     printf("la multi de los parametros es = %d\n ", a*b);
     // division
-    printf("la division de los parametros es = %f\n ", a/b);
+    printf("la division de los parametros es = %f\n ", C);
     //potencia
     printf("la potencia de los parametros es = %d\n ", a^b);
     // residuo
     printf("la el resiudo de los parametros es = %d\n ", a%b);
     // inidique si es mayor igual o menor 
-    printf("cambio");
+   
 
 
 
